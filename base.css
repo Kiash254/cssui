@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+}
+
+
+@media (min-width: 768px){
+
+    .news-input{
+        width:50%;
+
+    }
+}
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+
+#face{
+    text-decoration: none;
+    color: white;
+    
+}
+#face:hover{
+    font-weight: bold;
+}
